@@ -1,0 +1,58 @@
+<div class="main-container">
+  <h1 class="heading">{{ todayStr }}</h1>
+  <div class="button-container">
+    <button type="button" class="btn btn-light">Get updates</button>
+  </div>
+  <nav>
+    <a routerLink="/weather-trends" routerLinkActive="active">View Trends</a>
+  </nav>
+  <router-outlet></router-outlet>
+  <div class="clock">
+    <div class="min"></div>
+    <div class="hour"></div>
+  </div>
+</div>
+<div class="overlap-container"></div>
+
+<ul class="card-container">
+  <li>
+    <div class="separation-card">
+      <h5>Temperature</h5>
+      <div class="img-style">
+        <img src="assets/images/thermometer.png"/>
+        <h3>23</h3>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div class="separation-card">
+      <h5>Humidity</h5>
+      <div class="img-style">
+        <img src="assets/images/humidity.png"/>
+        <h3>23</h3>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div class="separation-card">
+      <h5>Pressure</h5>
+      <div class="img-style">
+        <img src="assets/images/pressure-gauge.png"/>
+        <h3>23</h3>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div class="separation-card">
+      <h5>Lux</h5>
+      <div class="img-style">
+        <img src="assets/images/brightness.png"/>
+        <br/>
+        <h3>23</h3>
+      </div>
+    </div>
+  </li>
+</ul>
