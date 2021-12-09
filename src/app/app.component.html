@@ -1,11 +1,13 @@
 <div class="main-container">
   <h1 class="heading">{{ todayStr }}</h1>
   <div class="button-container">
-    <button type="button" class="btn btn-light" (click)="getResponse()">Get updates</button>
+    <nav>
+      <!-- <button type="button" class="btn btn-light" routerLink="/weather-trends" routerLinkActive="active">View Trends</button> &nbsp; &nbsp; -->
+      <button type="button" class="btn btn-light"><a href="http://35.238.68.2:3000/d/umrb5ohnz/dashboard1?orgId=1&from=1638953788990&to=1638954272205&kiosk=tv">View Trends</a></button> &nbsp; &nbsp;
+      <button type="button" class="btn btn-light" (click)="ngOnInit()">Get updates</button> &nbsp; &nbsp;
+      <!-- <button type="button" class="btn btn-light" (click)="setWeatherParams()">Set values</button> -->
+    </nav>
   </div>
-  <nav>
-    <a routerLink="/weather-trends" routerLinkActive="active">View Trends</a>
-  </nav>
   <router-outlet></router-outlet>
   <div class="clock">
     <div class="min"></div>

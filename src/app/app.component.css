@@ -109,9 +109,10 @@ card-container {
 }
 
 button{
-  width: 600px;
-  position: absolute;
+  width: 300px;
+  position: relative;
   background-color: #F2E9E4;
+  display: inline;
 }
 
 a{
