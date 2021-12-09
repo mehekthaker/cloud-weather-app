@@ -9,10 +9,10 @@
 
 ## Technologies Used
 
-* InfluxDB
-* Compute Engine
-* App Engine
-* MQTT
-* Grafana
-* Flask
-* Angular
+1. InfluxDB
+2. Compute Engine
+3. App Engine
+4. MQTT
+5. Grafana
+6. Flask
+7. Angular
